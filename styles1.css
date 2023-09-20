@@ -1,0 +1,91 @@
+body{
+    margin: 100;
+    padding: 100;
+    background-color: black;
+}
+
+.element::before {
+    content: "";
+    background: url(loo1.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 99%;
+    height: 98%;
+    opacity: 0.3;
+    z-index: -1; 
+}
+header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.logo img {
+    align-items: left;
+    height: 120px;
+    width: auto;
+}
+.yes{
+    color:white;
+    background-color: transparent;
+    border-style :solid;
+    padding: 10px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 690px; 
+    border-radius:5px;
+    width:130px;
+    height:40px;
+}
+
+.yes option{
+    background-color: grey;
+}
+
+.in {
+    background-color: #e50914;
+    color: #fff;
+    border: 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 180px;
+    width:100px;
+    height:40px;    
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 100px;
+    color: white;
+}
+
+.hero h1{
+    text-align:center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding: 2px 4px;
+}
+
+input{
+    background-color:whitesmoke;
+    color:white;
+    border-style: groove;
+    padding: 15px 80px;
+    font-size: 1.2rem;
+    cursor: input;
+    border-radius:5px;
+}
+
+.hero button {
+    background-color: #e50914;
+    color: #fff;
+    border-radius:5px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-display: email ;
+}
